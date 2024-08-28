@@ -123,7 +123,7 @@ We evaluate the merged model using [`HELM` framework](https://github.com/stanfor
 However, its environment is a bit complex to install and have problems in showing the results , we recommend use [our enhanced version](https://github.com/LZY-the-boys/HELM-Extended-Local) for a smoother experience:
 ```
 cd generative
-git clone  --single-branch --branch dev  HELM-Extended-Local
+git clone --single-branch --branch dev https://github.com/LZY-the-boys/HELM-Extended-Local.git
 conda create -n crfm-helm python=3.8
 conda activate crfm-helm
 pip install -r HELM-Extended-Local/requirements.txt
